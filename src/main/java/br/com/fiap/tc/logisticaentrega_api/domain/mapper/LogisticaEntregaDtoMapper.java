@@ -1,6 +1,7 @@
 package br.com.fiap.tc.logisticaentrega_api.domain.mapper;
 
 import br.com.fiap.tc.logisticaentrega_api.domain.entity.LogisticaEntrega;
+import br.com.fiap.tc.logisticaentrega_api.domain.input.AtualizarLogisticaEntregaRequest;
 import br.com.fiap.tc.logisticaentrega_api.domain.input.CadastrarLogisticaEntregaRequest;
 import br.com.fiap.tc.logisticaentrega_api.domain.output.LogisticaEntregaResponse;
 import br.com.fiap.tc.logisticaentrega_api.infra.entity.LogisticaEntregaEntity;
@@ -19,6 +20,15 @@ public interface LogisticaEntregaDtoMapper {
      */
     @Mapping(target = "entregaId", ignore = true)
     LogisticaEntrega toLogisticaEntrega(CadastrarLogisticaEntregaRequest cadastrarLogisticaEntrega);
+
+
+    /**
+     * @param atualizarLogisticaEntregaRequest
+     * @return
+     */
+    @Mapping(target = "pedidoId", ignore = true)
+    LogisticaEntrega toLogisticaEntrega(AtualizarLogisticaEntregaRequest atualizarLogisticaEntregaRequest);
+
 
     /**
      * @param logisticaEntrega
