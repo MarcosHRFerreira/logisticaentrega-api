@@ -61,4 +61,13 @@ Você pode [acessar o código fonte do projeto](https://github.com/MarcosHRFerre
 
 A aplicação foi arquitetada através dos princípios de Clean Archtecture e foi publicada para ser consumida como uma API Rest.
 
+## Desenvolvedores
+
+### Integrantes do Grupo 45
+
+Amanda Cristina Pereira Rodrigues
+- [amandadaylan@gmail.com ](#damandadaylan@gmail.com)
+
+Marcos Henrique Rosa Ferreira
+- [marcoshrferreira@gmail.com](#marcoshrferreira@gmail.com)
 
